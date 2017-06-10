@@ -2,6 +2,10 @@
   <video-texture src="./bunny.mp4"/>
     <scene>
         <camera />
-        <mesh geometry="cube" texture="query(video-texture)"/>
+        <mesh geometry="cube" texture="query(video-texture)">
+          <mesh.components>
+            <Rotate/>
+          </mesh.components>
+        </mesh>
     </scene>
 </goml>
