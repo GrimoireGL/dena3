@@ -1,5 +1,7 @@
 
 # プラグインとは？
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/GrimoireGL/dena3.svg)](https://greenkeeper.io/)
 Grimoire.jsのほとんどの機能は、**ノード・コンポーネント** として実装されています。  
 ノードやコンポーネントは、普通にjavascriptで追加することもできますが、複雑なものを作るときは、 **プラグイン** としてまとめるのがオススメです。  
 プラグインにすることで、 **scriptタグで読み込むだけで利用できる** ようになります。
