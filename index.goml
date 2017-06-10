@@ -1,8 +1,12 @@
 <goml bgColor="gray" >
-  <video-texture src="./bunny.mp4"/>
+  <webcam-texture/>
     <scene>
-        <camera />
-        <mesh geometry="cube" texture="query(video-texture)">
+      <camera >
+        <camera.components >
+          <MouseCameraControl/>
+        </camera.components >
+      </camera >
+        <mesh geometry="cube" texture="query(webcam-texture)">
           <mesh.components>
             <Rotate/>
           </mesh.components>
