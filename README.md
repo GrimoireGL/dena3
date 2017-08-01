@@ -44,9 +44,9 @@ Grimoire.jsのほとんどの機能は、**ノード・コンポーネント** �
 ## セットアップ
 `cauldron init -n grimoirejs-hoge`
 
->プロジェクト名は、 `grimoirejs-`で始まる文字列を推奨
-そのあと、 `npm install`しておきましょう。(依存がインストールされます)
-`npm run server`で簡易Webサーバが立ちます(macのみ？)
+>プロジェクト名は、 `grimoirejs-`で始まる文字列を推奨  
+>そのあと、 `npm install`しておきましょう。(依存がインストールされます)  
+>`npm run server`で簡易Webサーバが立ちます(macのみ？)
 
 ## コンポーネントを作る
 `cauldron scaffold -t component -n Rotate`で、テンプレートを生成します。
@@ -54,9 +54,9 @@ Grimoire.jsのほとんどの機能は、**ノード・コンポーネント** �
 
 
 ### コンポーネントの中身を書く！
-書き方の詳細は[ガイド](https://grimoire.gl/guide/1_essentials/05_componentsystem.html#Message-function)参照
-先頭に`$`がついた関数は、 **メッセージレシーバ** と呼ばれ、適当なタイミングで自動的に呼ばれます。
-`attributes` にはタグの属性を定義できます
+書き方の詳細は[ガイド](https://grimoire.gl/guide/1_essentials/05_componentsystem.html#Message-function)参照  
+先頭に`$`がついた関数は、 **メッセージレシーバ** と呼ばれ、適当なタイミングで自動的に呼ばれます。  
+`attributes` にはタグの属性を定義できます  
 基本的には、`attributes`とメッセージレシーバを作ることがコンポーネント開発の基本的な手順です。
 
 ### `main.ts`に、登録処理を書く！
